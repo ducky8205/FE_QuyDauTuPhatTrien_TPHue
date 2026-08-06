@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>figma 5 quỹ đầu tư</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="top-header bg-yellow-linear">
+            <div class="container-xxl top-header-container d-flex justify-content-between pt-2 pb-3 align-items-center">
+                <div class="left-panel d-flex gap-3">
+                    <div class="location d-flex flex-column align-items-end">
+                        <span class="fw-semibold">Thành phố Huế</span>
+                        <span class="small fw-normal">Thứ hai, 16/03/2026</span>
+                    </div>
+
+                    <div class="weather d-flex gap-2 align-items-center">
+                        <img src="assets/icons/sun-cloud-02.svg" alt="">
+                        <span class="fw-semibold">19°C - 28°C</span>
+                    </div>
+                </div>
+
+                <div class="main-logo d-flex gap-2 align-items-center">
+                    <img src="assets/images/logo-quy-dau-tu.png" alt="" class="logo">
+                    <div class="d-flex flex-column logo-text">
+                        <span class="text-green-tertiary fw-black fs-4">QUỸ ĐẦU TƯ PHÁT TRIỂN</span>
+                        <span class="text-green-tertiary fw-semibold fs-5">THÀNH PHỐ HUẾ</span>
+                    </div>
+                </div>
+
+                <div class="right-panel d-flex gap-3">
+                    <div class="language-choose d-flex gap-1 align-items-center">
+                        <img src="assets/icons/vietnam.svg" alt="" class="language-flag">
+                        <span class="fw-semibold language">VI</span>
+                        <img src="assets/icons/arrow-down-01.svg" alt="" class="language-dropdown">
+                    </div>
+
+                    <div class="login d-flex gap-1 align-items-center">
+                        <img src="assets/icons/login.svg" alt="" class="login-icon">
+                        <span><a href="#" class="fw-semibold login-text">Đăng nhập</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="header-navigation">
+            <div class="container-xxl">
+                <ul id="main-menu" class="sm sm-simple">
+                    <li><a href="#"><img src="assets/icons/Frame.svg" alt=""></a></li>
+                    <li><a href="#">Giới thiệu</a>
+                        <ul>
+                            <li><a href="#">Tổng quan về HUDIF</a></li>
+                            <li><a href="#">Chức năng - Nhiệm vụ</a></li>
+                            <li><a href="#">Cơ cấu tổ chức</a></li>
+                            <li><a href="#">Ban lãnh đạo</a></li>
+                            <li><a href="#">Quá trình hình thành</a></li>
+                            <li><a href="#">Danh bạ điện thoại</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Hồ sơ - Thủ tục</a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Dự án - Danh mục đầu tư cho vay</a></li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="#">Tư liệu</a></li>
+                    <li><a href="#">Công khai - Minh bạch</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#"><img src="assets/icons/search.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smartmenus/1.2.1/jquery.smartmenus.min.js"></script>
+    <script>
+        $(function () {
+            $('#main-menu').smartmenus({
+                subMenusSubOffsetX: 1,
+                subMenusSubOffsetY: -8,
+                showOnClick: true,
+                hideOnClick: true,
+                showDuration: 200,
+                hideDuration: 200
+            });
+        });
+    </script>
+
+    <main>
+        <div class="main-banner">
+            <img src="assets/images/banner-1.png" alt="" class="banner-1">
+
+            <div class="banner-description">
+                <span class="ff-pd">Đồng hành phát triển kinh tế - xã hội thành phố Huế</span>
+                <span>
+                    Hỗ trợ tài chính cho các dự án hạ tầng, đô thị và dịch vụ công, góp phần xây dựng Huế phát triển bền
+                    vững, hiện đại.
+                </span>
+
+                <div class="main-banner-buttons-group">
+                    <a href="#" class="main-banner-primary-button">Danh mục đầu tư</a>
+                    <a href="#" class="main-banner-secondary-button">Hồ sơ - Thủ tục</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="notice">
+            <span>Thông báo</span>
+
+            <div class="notifications">
+                <div class="noti-item">
+                    <span class="noti-item-date">01/06/2024</span>
+                    <span class="noti-item-text">Thông báo về chính sách ưu đãi vay vốn cho dự án xanh 2024</span>
+                </div>
+                <div class="noti-item">
+                    <span class="noti-item-date">24/05/2024</span>
+                    <span class="noti-item-text">Thông báo về việc điều chỉnh lãi suất vay vốn ưu đãi cho các dự án hạ
+                        tầng
+                        năm 2024</span>
+                </div>
+                <div class="noti-item">
+                    <span class="noti-item-date">21/05/2024</span>
+                    <span class="noti-item-text">Kết quả đấu thầu dự án đầu tư hạ tầng khu công nghiệp An Vân
+                        Dương</span>
+                </div>
+                <div class="noti-item">
+                    <span class="noti-item-date">25/03/2024</span>
+                    <span class="noti-item-text">Kết quả đấu thầu dự án đầu tư hạ tầng khu công nghiệp An Vân
+                        Dương</span>
+                </div>
+            </div>
+        </div>
+
+        <section class="news-section">
+            <div class="section-title-1">
+                <span>Tin tức - Sự kiện</span>
+                <hr>
+            </div>
+
+            <div class="news-container">
+                <div class="main-news">
+                    <img src="assets/images/chu-nhat-xanh.png" alt="">
+
+                    <div class="main-news-content">
+                        <div class="main-news-title">
+                            <span>
+                                Chi đoàn Quỹ Đầu tư phát triển thành phố Huế hưởng ứng Ngày Chủ nhật xanh tháng 3 năm
+                                2026
+                            </span>
+                            <span>02/03/2026</span>
+                        </div>
+
+                        <span class="line-clamp-3">
+                            Sáng ngày 01/03/2026, Chi đoàn Quỹ Đầu tư phát triển thành phố Huế đã đồng loạt ra quân tham
+                            gia hoạt động “Ngày Chủ nhật xanh - Hãy hành động để thành phố Huế thêm Xanh - Sạch - Sáng”
+                            trên
+                            địa bàn thành phố. Hoạt động được tổ chức tại khuôn viên trụ sở Quỹ và hai tuyến đường
+                            Nguyễn
+                            Huệ - Hai Bà Trưng, tiếp tục hưởng ứng Kế hoạch số 04/KH-UBND của UBND thành phố Huế và
+                            phong
+                            trào Ngày Chủ nhật xanh do Thành phố phát động.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="side-news">
+                    <div>
+                        <img src="assets/images/ket-nap.png" alt="">
+                        <div>
+                            <span class="line-clamp-3">Chi bộ Quỹ Đầu tư phát triển thành phố Huế tổ chức Lễ kết nạp
+                                đảng viên mới</span>
+                            <span>09/02/2026</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="assets/images/dang-huong.png" alt="">
+                        <div>
+                            <span class="line-clamp-3">
+                                Quỹ Đầu tư phát triển thành phố Huế tổ chức dâng hương tưởng niệm nhân kỷ niệm 96 năm
+                                Ngày
+                                thành lập Đảng Cộng sản Việt Nam (03/02/1930 - 03/02/2026)
+                            </span>
+                            <span>03/02/2026</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="assets/images/thi-dua.png" alt="">
+                        <div>
+                            <span class="line-clamp-3">Hội nghị tổng kết phong trào thi đua năm 2025 Khối thi đua Sự
+                                nghiệp 1</span>
+                            <span>02/02/2026</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="assets/images/hien-mau.png" alt="">
+                        <div>
+                            <span class="line-clamp-3">Hiến máu cứu người - Ngày hội hiến máu tình nguyện “Chủ nhật đỏ”
+                                2026</span>
+                            <span>31/01/2026</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="assets/images/chu-nhat-xanh-2.png" alt="">
+                        <div>
+                            <span class="line-clamp-3">
+                                Chi đoàn Quỹ Đầu tư phát triển thành phố Huế ra quân thực hiện Đề án Ngày Chủ nhật xanh
+                                “Hãy hành động để thành phố Huế thêm Xanh - Sạch - Sáng” năm 2026
+                            </span>
+                            <span>18/01/2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner-slides-section">
+            <img src="assets/images/banner-2.png" alt="">
+        </section>
+
+        <section class="categories-section">
+            <div class="section-title-2">
+                <span>Danh mục đầu tư cho vay</span>
+                <hr>
+            </div>
+
+            <div class="categories-container">
+                <div class="categories-item">
+                    <div>
+                        <img src="assets/icons/cars.svg" alt="">
+                        <span class="line-clamp-2">Giao thông, đô thị, công ích đô thị</span>
+                    </div>
+                    <a href="#">Xem ngay</a>
+                </div>
+
+                <div class="categories-item">
+                    <div>
+                        <img src="assets/icons/tags.svg" alt="">
+                        <span class="line-clamp-2">Du lịch, thương mại, dịch vụ</span>
+                    </div>
+                    <a href="#">Xem ngay</a>
+                </div>
+
+                <div class="categories-item">
+                    <div>
+                        <img src="assets/icons/rocket.svg" alt="">
+                        <span class="line-clamp-2">Khoa học công nghệ, công nghệ thông tin và viễn thông, công nghệ
+                            cao,Startup,
+                            Logistics</span>
+                    </div>
+                    <a href="#">Xem ngay</a>
+                </div>
+
+                <div class="categories-item">
+                    <div>
+                        <img src="assets/icons/eco-power.svg" alt="">
+                        <span class="line-clamp-2">Năng lượng, môi trường</span>
+                    </div>
+                    <a href="#">Xem ngay</a>
+                </div>
+
+                <div class="categories-item">
+                    <div>
+                        <img src="assets/icons/education.svg" alt="">
+                        <span class="line-clamp-2">Xã hội hoá giáo dục, y tế,văn hoá, thể thao, hạ tầng xã hội</span>
+                    </div>
+                    <a href="#">Xem ngay</a>
+                </div>
+
+                <div class="categories-item">
+                    <div>
+                        <img src="assets/icons/factory.svg" alt="">
+                        <span class="line-clamp-2">
+                            Hạ tầng khu kinh tế Chân Mây Lăng Cô và các khu công nghiệp, cụm công nghiệp, khu chế xuất,
+                            khu kinh tế, cụm công nghiệp làng nghề; sản xuất công nghiệp
+                        </span>
+                    </div>
+                    <a href="#">Xem ngay</a>
+                </div>
+
+                <div class="categories-item">
+                    <div>
+                        <img src="assets/icons/tractor.svg" alt="">
+                        <span class="line-clamp-2">Nông nghiệp, lâm, ngư nghiệp</span>
+                    </div>
+                    <a href="#">Xem ngay</a>
+                </div>
+
+                <div class="categories-item">
+                    <div>
+                        <img src="assets/icons/categories.svg" alt="">
+                        <span class="line-clamp-2">Xem tất cả danh mục lĩnh vực đầu tư, cho vay giai đoạn 2002 -
+                            2025</span>
+                    </div>
+                    <a href="#">Xem ngay</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="functions-section">
+            <div>
+                <img src="assets/icons/pakn.svg" alt="">
+                <div>
+                    <span>TIẾP NHẬN PAKN</span>
+                    <span>CÔNG DÂN, DOANH NGHIỆP HỘ KINH DOANH</span>
+                </div>
+            </div>
+
+            <div>
+                <img src="assets/icons/customers.svg" alt="">
+                <div>
+                    <span>KHẢO SÁT KHÁCH HÀNG</span>
+                </div>
+            </div>
+
+            <div>
+                <img src="assets/icons/flags.png" alt="">
+                <div>
+                    <span>SỔ TAY ĐẢNG VIÊN ĐIỆN TỬ</span>
+                </div>
+            </div>
+
+            <div>
+                <img src="assets/icons/customers.svg" alt="">
+                <div>
+                    <span>QUẢN LÝ VĂN BẢN VÀ ĐIỀU HÀNH</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="fields-section">
+            <div>
+                <span>Lĩnh vực hoạt động</span>
+                <hr>
+            </div>
+
+            <div>
+                <div>
+                    <img src="assets/images/handshake.png" alt="">
+                    <span>Hoạt động cho vay</span>
+                    <span>
+                        Quỹ được cho vay đối với các dự án thuộc danh mục các lĩnh vực kết cấu hạ tầng kinh tế - xã hội
+                        ưu
+                        tiên phát triển của địa phương do Ủy ban nhân dân thành phố Huế ban hành theo quy định tại Nghị
+                        định
+                        số 147/2020/NĐ-CP.
+                    </span>
+                </div>
+
+                <div>
+                    <img src="assets/images/green.png" alt="">
+                    <span>Hoạt động đầu tư trực tiếp</span>
+                    <span>
+                        Quỹ được đầu tư vào các dự án, đầu tư thành lập tổ chức kinh tế, đầu tư góp vốn, mua cổ phần,
+                        phần
+                        vốn góp của tổ chức kinh tế thuộc danh mục các lĩnh vực đầu tư kết cấu hạ tầng kinh tế - xã hội
+                        ưu
+                        tiên phát triển của địa phương do Ủy ban nhân dân thành phố Huế ban hành theo quy định tại Nghị
+                        định
+                        số 147/2020/NĐ-CP.
+                    </span>
+                </div>
+
+                <div>
+                    <img src="assets/images/handshake-2.png" alt="">
+                    <span>Hoạt động ủy thác và nhận ủy thác</span>
+                    <span>
+                        Quỹ được uy thác cho vay, đầu tư; nhận ủy thác quản lý các quỹ tài chính nhà nước tại địa
+                        phương,
+                        các tổ chức, cá nhân trong nước và ngoài nước theo quy định của pháp luật và Nghị định số
+                        147/2020/NĐ-CP.
+                    </span>
+                </div>
+
+                <div>
+                    <img src="assets/images/coins.png" alt="">
+                    <span>Hoạt động huy động vốn</span>
+                    <span>
+                        Quỹ được huy động các nguồn vốn trung và dài hạn từ các tổ chức trong và ngoài nước theo quy
+                        định
+                        tại Nghị định số 147/2020/NĐ-CP.
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div>
+                <span>Dự án tiêu biểu</span>
+                <hr>
+            </div>
+
+            <div class="projects-container">
+                <div class="project-item">
+                    <img src="assets/images/hanh-huong.png" alt="" class="project-img">
+
+                    <span class="project-title">Dự án nâng cấp, sửa chữa làng Hành Hương 2022, giai đoạn 2</span>
+
+                    <div class="project-info">
+                        <div>
+                            <img src="assets/icons/location-2.svg" alt="">
+                            <span class="project-location">Vị trí: </span><span>130 Minh Mạng, phường Thủy Xuân, thành
+                                phố Huế</span>
+                        </div>
+
+                        <div>
+                            <img src="assets/icons/clock.svg" alt="">
+                            <span class="project-progress">Tiến độ: </span>
+                            <span>Hoàn thành</span>
+                        </div>
+                    </div>
+
+                    <span>
+                        Làng Hành Hương được xây dựng trên một công trình thủy lợi Nam Sông Hương, thuộc địa phận xã
+                        Thủy
+                        Xuân, thành phố Huế, tỉnh Thừa Thiên Huế, cách trung tâm thành phố Huế 5km về hướng Tây. Dự án
+                        có
+                        tổng vốn đầu tư ban đầu là 16 triệu đô la Mỹ. Khu du lịch sinh thái Làng Hành Hương được khởi
+                        công
+                        xây dựng từ năm 2000 và hoàn thành vào năm 2002. Thời điểm mới xây dựng, Làng Hành Hương có các
+                        công
+                        trình chính gồm: Lễ tân, nhà mỹ nghệ, Nhà hàng Junrei, 03 căn nhà Villa Deluxe, 14 phòng Peanut
+                        và
+                        01 bể bơi. Qua 02 giai đoạn từ tháng 5/2006 - 11/2007 và từ tháng 5/2016 - 9/2017, Làng Hành
+                        Hương
+                        xây dựng mở rộng thêm và hoàn thiện hơn với các công trình như: khu Bungalow, nhà Pool Hut, nhà
+                        rường Việt Nam, khu Gardenview; các khu dịch vụ cao cấp như Spa, Nhà hàng Valley, Nhà thể thao,
+                        vui
+                        chơi, văn phòng làm việc, hệ thống sân vườn, hệ thống điện, nước,… Đến nay, Làng Hành Hương là
+                        một
+                        quần thể nghỉ dưỡng với 173 phòng và biệt thự, ba nhà hàng, bốn khu vực bar, hai bể bơi chung,
+                        một
+                        khu spa cùng các dịch vụ thể thao giải trí đa dạng khác.
+                    </span>
+
+                    <a href="#" class="project-button">KHÁM PHÁ DỰ ÁN</a>
+                </div>
+
+                <div class="project-item">
+                    <img src="assets/images/kcn-phu-bai.png" alt="" class="project-img">
+
+                    <span class="project-title">Đầu tư xây dựng và kinh doanh hạ tầng kỹ thuật khu công nghiệp Phú Bài
+                        giai đoạn IV, đợt
+                        1</span>
+
+                    <div class="project-info">
+                        <div>
+                            <img src="assets/icons/location-2.svg" alt="">
+                            <span class="project-location">Vị trí: </span><span>Khu Công Nghiệp Phú Bài, phường Hương
+                                Thủy</span>
+                        </div>
+
+                        <div>
+                            <img src="assets/icons/clock.svg" alt="">
+                            <span class="project-progress">Tiến độ: </span>
+                            <span>Hoàn thành</span>
+                        </div>
+                    </div>
+
+                    <span>
+                        Dự án có tổng diện tích 85,87 ha, bao gồm các hạng mục: San nền, giao thông, vỉa hè, cây xanh,
+                        thoát
+                        nước thải, bể trung gian, thoát nước mưa, hệ thống PCCC, bể PCCC 450 m3, cấp điện chiếu sáng. Cụ
+                        thể
+                        như sau:
+                    </span>
+
+                    <a href="#" class="project-button">KHÁM PHÁ DỰ ÁN</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="steps-section">
+            <img src="assets/images/banner-3.png" alt="" class="steps-img">
+
+            <div>
+                <span class="steps-title">Quy trình vay vốn</span>
+                <hr class="steps-line">
+            </div>
+
+            <div class="steps-container">
+                <div class="steps-item">
+                    <span class="steps-number">01</span>
+                    <div class="steps-content">
+                        <span class="steps-name">Tư vấn & Hướng dẫn</span>
+                        <span class="steps-text">Tiếp nhận nhu cầu và tư vấn chi tiết về điều kiện, hồ sơ pháp lý cần
+                            thiết.</span>
+                    </div>
+                </div>
+
+                <div class="steps-item">
+                    <span class="steps-number">02</span>
+                    <div class="steps-content">
+                        <span class="steps-name">Tiếp nhận hồ sơ</span>
+                        <span class="steps-text">Kiểm tra tính đầy đủ, hợp lệ của hồ sơ vay vốn theo quy định hiện
+                            hành.</span>
+                    </div>
+                </div>
+
+                <div class="steps-item">
+                    <span class="steps-number">03</span>
+                    <div class="steps-content">
+                        <span class="steps-name">Thẩm định điều kiện</span>
+                        <span class="steps-text">Đánh giá tính khả thi, hiệu quả kinh tế - xã hội và khả năng hoàn trả
+                            vốn dự án.</span>
+                    </div>
+                </div>
+
+                <div class="steps-item">
+                    <span class="steps-number">04</span>
+                    <div class="steps-content">
+                        <span class="steps-name">Quyết định cho vay</span>
+                        <span class="steps-text">Hội đồng Quỹ xem xét phê duyệt và ký kết hợp đồng tín dụng chính
+                            thức.</span>
+                    </div>
+                </div>
+
+                <div class="steps-item">
+                    <span class="steps-number">05</span>
+                    <div class="steps-content">
+                        <span class="steps-name">Giải ngân & Giám sát</span>
+                        <span class="steps-text">Cấp vốn theo tiến độ dự án và kiểm tra định kỳ việc sử dụng nguồn vốn
+                            vay.</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div>
+                <span>Câu hỏi thường gặp</span>
+                <hr>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item active">
+                    <div class="faq-question">
+                        <img src="assets/icons/question-mark.svg" alt="">
+                        <span>Giới hạn đầu tư góp vốn</span>
+                        <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
+                    </div>
+
+                    <div class="faq-answer">
+                        <span>
+                            Quỹ thực hiện đầu tư góp vốn tối đa bằng 20% vốn chủ sở hữu của Quỹ tại thời điểm thực hiện.
+                            Trường hợp Quỹ góp vốn thành lập doanh nghiệp vào dự án theo quy định của pháp luật để quản
+                            lý
+                            và
+                            thực hiện duy nhất một dự án đầu tư, thì khoản vốn, lập doanh nghiệp được tính gộp vào tổng
+                            số
+                            vốn
+                            đầu tư trực tiếp và phải tuân thủ quy định về lĩnh vực và giới hạn đầu tư trực tiếp tại Nghị
+                            định số
+                            138/2007/NĐ-CP và Nghị định số 37/2013/NĐ-CP./.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <img src="assets/icons/question-mark.svg" alt="">
+                        <span>Điều kiện góp vốn thành lập doanh nghiệp</span>
+                        <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
+                    </div>
+
+                    <div class="faq-answer">
+                        <span>text</span>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <img src="assets/icons/question-mark.svg" alt="">
+                        <span>Giới hạn đầu tư trực tiếp</span>
+                        <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
+                    </div>
+
+                    <div class="faq-answer">
+                        <span>text</span>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <img src="assets/icons/question-mark.svg" alt="">
+                        <span>Thời hạn để thực hiện đầu tư trực tiếp</span>
+                        <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
+                    </div>
+
+                    <div class="faq-answer">
+                        <span>text</span>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <img src="assets/icons/question-mark.svg" alt="">
+                        <span>Các hình thức đầu tư trực tiếp</span>
+                        <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
+                    </div>
+
+                    <div class="faq-answer">
+                        <span>text</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="about-content">
+                <div class="about-title">
+                    <span class="about-title1">VỀ CHÚNG TÔI</span>
+                    <span class="about-title2">Quỹ đầu tư phát triển thành phố Huế</span>
+                </div>
+
+                <span class="about-text">
+                    Là một <span>tổ chức tài chính</span> nhà nước trực thuộc UBND thành phố Huế; nhằm mục đích
+                    <span>tiếp nhận vốn ngân
+                        sách</span>, <span>huy động vốn</span> trung và dài hạn <span>từ các tổ chức trong và ngoài
+                        nước</span> để <span>cho vay, đầu tư vào dự án
+                        thuộc</span> danh mục <span>các lĩnh vực đầu tư kết cấu hạ tầng kinh tế - xã hội</span> ưu tiên
+                    phát triển của địa
+                    phương
+                </span>
+
+                <a href="#" class="about-button">Xem thêm</a>
+            </div>
+
+            <div class="about-image-wrapper">
+                <img src="assets/images/hue.png" alt="">
+                <button type="button" class="about-play-btn" aria-label="Xem video giới thiệu">
+                    <img src="assets/icons/play-button.svg" alt="">
+                </button>
+            </div>
+
+            <div class="about-stats">
+                <div class="stats-item">
+                    <span class="stats-number">10+</span>
+                    <span class="stats-title">Năm kinh nghiệm</span>
+                    <hr class="stats-line">
+                </div>
+
+                <div class="stats-item">
+                    <span class="stats-number">300 tỷ</span>
+                    <span class="stats-title">Vốn điều lệ</span>
+                    <hr class="stats-line">
+                </div>
+
+                <div class="stats-item">
+                    <span class="stats-number">12+</span>
+                    <span class="stats-title">Đối tác</span>
+                    <hr class="stats-line">
+                </div>
+
+                <div class="stats-item">
+                    <span class="stats-number">42+</span>
+                    <span class="stats-title">Dự án</span>
+                    <hr class="stats-line">
+                </div>
+            </div>
+        </section>
+
+        <section class="partners-section">
+            <span class="partners-title">LIÊN KẾT - ĐỐI TÁC</span>
+
+            <div class="partners-imgs">
+                <img src="assets/images/vietinbank.svg" alt="" class="partner">
+                <img src="assets/images/vietcombank.svg" alt="" class="partner">
+                <img src="assets/images/bidv.svg" alt="" class="partner">
+                <img src="assets/images/vpbank.svg" alt="" class="partner">
+                <img src="assets/images/agribank.svg" alt="" class="partner">
+                <img src="assets/images/vikkibank.png" alt="" class="partner">
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="top-footer">
+            <div class="qdtpt">
+                <span class="qdtpt-title">QUỸ ĐẦU TƯ PHÁT TRIỂN THÀNH PHỐ HUẾ</span>
+
+                <div class="qdtpt-info-container">
+                    <div class="qdtpt-info">
+                        <img src="assets/icons/location.svg" alt="" class="qdt-icon">
+                        <span class="qdtpt-info-text">Số 55, đường Hai Bà Trưng, phường Thuận Hóa, thành phố Huế</span>
+                    </div>
+
+                    <div class="qdtpt-info">
+                        <img src="assets/icons/call.svg" alt="" class="qdt-icon">
+                        <span class="qdtpt-info-text">0234 382 5522</span>
+                    </div>
+
+                    <div class="qdtpt-info">
+                        <img src="assets/icons/fax.svg" alt="" class="qdt-icon">
+                        <span class="qdtpt-info-text">0234 382 5533</span>
+                    </div>
+
+                    <div class="qdtpt-info">
+                        <img src="assets/icons/mail.svg" alt="" class="qdt-icon">
+                        <span class="qdtpt-info-text">hudif@hue.gov.vn</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <a href="#" class="link-item"><span>GIỚI THIỆU</span></a>
+                <a href="#" class="link-item"><span>HỒ SƠ - THỦ TỤC</span></a>
+                <a href="#" class="link-item"><span>QUY TRÌNH VAY VỐN</span></a>
+                <a href="#" class="link-item"><span>DANH MỤC ĐẦU TƯ</span></a>
+                <a href="#" class="link-item"><span>VĂN BẢN</span></a>
+                <a href="#" class="link-item"><span>LIÊN HỆ</span></a>
+            </div>
+
+            <a href="#"><img src="assets/images/map.png" alt="" class="footer-map"></a>
+        </div>
+
+        <div class="bottom-footer">
+            <div class="footer-content1">
+                <span class="footer-content1-text">© 2026 Bản quyền thuộc về Quỹ đầu tư phát triển thành phố Huế</span>
+                <span class="footer-content1-text">Thiết kế và xây dựng: HueCIT</span>
+            </div>
+
+            <div class="footer-content2">
+                <div class="social-group">
+                    <div class="social-apps">
+                        <a href="#"><img src="assets/icons/fb.svg" alt="" class="social-app"></a>
+                        <a href="#"><img src="assets/icons/messenger.svg" alt="" class="social-app"></a>
+                        <a href="#"><img src="assets/icons/zalo.svg" alt="" class="social-app"></a>
+                    </div>
+
+                    <div class="web-dropdown">
+                        <span class="web-dropdown-text">Liên kết website</span>
+                        <img src="assets/icons/dropdown-arrow.svg" alt="" class="dropdown-arrow">
+                    </div>
+                </div>
+
+                <div class="visitor">
+                    <div class="visitors">
+                        <span class="visitors-title">Đang truy cập: </span>
+                        <span class="visits-number">1024</span>
+                    </div>
+
+                    <hr>
+
+                    <div class="visitors-total">
+                        <span class="total-visit-title">Tổng lượt truy cập:</span>
+                        <span class="total-visit-number">43245</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button type="button" class="back-to-top" aria-label="Lên đầu trang">
+        <img src="assets/icons/back-to-top-btn.svg" alt="">
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
