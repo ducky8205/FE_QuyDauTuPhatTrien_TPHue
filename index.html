@@ -12,8 +12,14 @@
 
 <body>
     <header class="site-header">
-        <div class="top-header bg-yellow-linear">
-            <div class="container-xxl top-header-container d-flex justify-content-between pt-2 pb-3 align-items-center">
+        <div class="top-header bg-yellow-linear position-relative">
+            <div class="header-bg-overlay">
+                <img src="assets/patterns/kinh-thanh.png" alt="" class="header-bg-left">
+                <img src="assets/patterns/truong-tien.png" alt="" class="header-bg-right">
+            </div>
+
+            <div
+                class="container-xxl top-header-container d-flex justify-content-between pt-2 pb-3 align-items-center position-relative">
                 <div class="left-panel d-flex gap-3">
                     <div class="location d-flex flex-column align-items-end">
                         <span class="fw-semibold">Thành phố Huế</span>
@@ -107,8 +113,8 @@
             <img src="assets/images/banner-1.png" alt="" class="banner-1">
 
             <div class="banner-description">
-                <span class="ff-pd">Đồng hành phát triển kinh tế - xã hội thành phố Huế</span>
-                <span>
+                <span class="main-banner-title">Đồng hành phát triển <br> kinh tế - xã hội thành phố Huế</span>
+                <span class="main-banner-text">
                     Hỗ trợ tài chính cho các dự án hạ tầng, đô thị và dịch vụ công, góp phần xây dựng Huế phát triển bền
                     vững, hiện đại.
                 </span>
@@ -148,6 +154,12 @@
         </div>
 
         <section class="news-section">
+            <div class="news-bg-overlay">
+                <img src="assets/patterns/ao-dai.png" alt="" class="news-bg-right-top">
+                <img src="assets/patterns/chua.png" alt="" class="news-bg-left-bottom">
+                <img src="assets/patterns/xich-lo.png" alt="" class="news-bg-right-bottom">
+            </div>
+
             <div class="section-title-1">
                 <span>Tin tức - Sự kiện</span>
                 <hr>
@@ -157,16 +169,16 @@
                 <div class="main-news">
                     <img src="assets/images/chu-nhat-xanh.png" alt="">
 
-                    <div class="main-news-content">
-                        <div class="main-news-title">
-                            <span>
+                    <div class="main-news-container">
+                        <div class="main-news-content">
+                            <span class="main-news-title">
                                 Chi đoàn Quỹ Đầu tư phát triển thành phố Huế hưởng ứng Ngày Chủ nhật xanh tháng 3 năm
                                 2026
                             </span>
-                            <span>02/03/2026</span>
+                            <span class="main-news-date">02/03/2026</span>
                         </div>
 
-                        <span class="line-clamp-3">
+                        <span class="line-clamp-3 main-news-text">
                             Sáng ngày 01/03/2026, Chi đoàn Quỹ Đầu tư phát triển thành phố Huế đã đồng loạt ra quân tham
                             gia hoạt động “Ngày Chủ nhật xanh - Hãy hành động để thành phố Huế thêm Xanh - Sạch - Sáng”
                             trên
@@ -348,7 +360,9 @@
         </section>
 
         <section class="fields-section">
-            <div>
+            <img src="assets/patterns/cong-thanh.png" alt="" class="fields-bg-right">
+
+            <div class="section-title-3">
                 <span>Lĩnh vực hoạt động</span>
                 <hr>
             </div>
@@ -439,7 +453,12 @@
         </section>
 
         <section class="projects-section">
-            <div>
+            <div class="projects-bg-overlay">
+                <img src="assets/patterns/kinh-thanh-2.png" alt="" class="projects-bg-left">
+                <img src="assets/patterns/thien-mu.png" alt="" class="projects-bg-right">
+            </div>
+
+            <div class="section-title-4">
                 <span>Dự án tiêu biểu</span>
                 <hr>
             </div>
@@ -517,7 +536,7 @@
         <section class="steps-section">
             <img src="assets/images/banner-3.png" alt="" class="steps-img">
 
-            <div>
+            <div class="section-title-5">
                 <span class="steps-title">Quy trình vay vốn</span>
                 <hr class="steps-line">
             </div>
@@ -572,87 +591,100 @@
         </section>
 
         <section class="faq-section">
-            <div>
-                <span>Câu hỏi thường gặp</span>
-                <hr>
+            <div class="faq-bg-overlay">
+                <img src="assets/patterns/mai-che.png" alt="" class="faq-bg-left">
+                <img src="assets/patterns/kien-truc.png" alt="" class="faq-bg-right">
             </div>
 
-            <div class="faq-container">
-                <div class="faq-item active">
-                    <div class="faq-question">
-                        <img src="assets/icons/question-mark.svg" alt="">
-                        <span>Giới hạn đầu tư góp vốn</span>
-                        <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
-                    </div>
-
-                    <div class="faq-answer">
-                        <span>
-                            Quỹ thực hiện đầu tư góp vốn tối đa bằng 20% vốn chủ sở hữu của Quỹ tại thời điểm thực hiện.
-                            Trường hợp Quỹ góp vốn thành lập doanh nghiệp vào dự án theo quy định của pháp luật để quản
-                            lý
-                            và
-                            thực hiện duy nhất một dự án đầu tư, thì khoản vốn, lập doanh nghiệp được tính gộp vào tổng
-                            số
-                            vốn
-                            đầu tư trực tiếp và phải tuân thủ quy định về lĩnh vực và giới hạn đầu tư trực tiếp tại Nghị
-                            định số
-                            138/2007/NĐ-CP và Nghị định số 37/2013/NĐ-CP./.
-                        </span>
-                    </div>
+            <div class="container position-relative">
+                <div class="section-title-6">
+                    <span>Câu hỏi thường gặp</span>
+                    <hr>
                 </div>
 
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <img src="assets/icons/question-mark.svg" alt="">
-                        <span>Điều kiện góp vốn thành lập doanh nghiệp</span>
-                        <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
+                <div class="faq-container">
+                    <div class="faq-item active">
+                        <div class="faq-question">
+                            <img src="assets/icons/question-mark.svg" alt="">
+                            <span>Giới hạn đầu tư góp vốn</span>
+                            <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
+                        </div>
+
+                        <div class="faq-answer">
+                            <span>
+                                Quỹ thực hiện đầu tư góp vốn tối đa bằng 20% vốn chủ sở hữu của Quỹ tại thời điểm thực
+                                hiện.
+                                Trường hợp Quỹ góp vốn thành lập doanh nghiệp vào dự án theo quy định của pháp luật để
+                                quản
+                                lý
+                                và
+                                thực hiện duy nhất một dự án đầu tư, thì khoản vốn, lập doanh nghiệp được tính gộp vào
+                                tổng
+                                số
+                                vốn
+                                đầu tư trực tiếp và phải tuân thủ quy định về lĩnh vực và giới hạn đầu tư trực tiếp tại
+                                Nghị
+                                định số
+                                138/2007/NĐ-CP và Nghị định số 37/2013/NĐ-CP./.
+                            </span>
+                        </div>
                     </div>
 
-                    <div class="faq-answer">
-                        <span>text</span>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <img src="assets/icons/question-mark.svg" alt="">
+                            <span>Điều kiện góp vốn thành lập doanh nghiệp</span>
+                            <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
+                        </div>
+
+                        <div class="faq-answer">
+                            <span>text</span>
+                        </div>
                     </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <img src="assets/icons/question-mark.svg" alt="">
+                            <span>Giới hạn đầu tư trực tiếp</span>
+                            <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
+                        </div>
+
+                        <div class="faq-answer">
+                            <span>text</span>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <img src="assets/icons/question-mark.svg" alt="">
+                            <span>Thời hạn để thực hiện đầu tư trực tiếp</span>
+                            <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
+                        </div>
+
+                        <div class="faq-answer">
+                            <span>text</span>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <img src="assets/icons/question-mark.svg" alt="">
+                            <span>Các hình thức đầu tư trực tiếp</span>
+                            <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
+                        </div>
+
+                        <div class="faq-answer">
+                            <span>text</span>
+                        </div>
+                    </div>
+
                 </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <img src="assets/icons/question-mark.svg" alt="">
-                        <span>Giới hạn đầu tư trực tiếp</span>
-                        <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
-                    </div>
-
-                    <div class="faq-answer">
-                        <span>text</span>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <img src="assets/icons/question-mark.svg" alt="">
-                        <span>Thời hạn để thực hiện đầu tư trực tiếp</span>
-                        <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
-                    </div>
-
-                    <div class="faq-answer">
-                        <span>text</span>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <img src="assets/icons/question-mark.svg" alt="">
-                        <span>Các hình thức đầu tư trực tiếp</span>
-                        <img src="assets/icons/arrow-down-01.svg" alt="" class="faq-toggle-icon">
-                    </div>
-
-                    <div class="faq-answer">
-                        <span>text</span>
-                    </div>
-                </div>
-
             </div>
         </section>
 
         <section class="about-section">
+            <img src="assets/patterns/cong-thanh-2.png" alt="" class="about-bg">
+
             <div class="about-content">
                 <div class="about-title">
                     <span class="about-title1">VỀ CHÚNG TÔI</span>
@@ -707,6 +739,8 @@
         </section>
 
         <section class="partners-section">
+            <img src="assets/patterns/truong-tien-2.png" alt="" class="partners-bg">
+
             <span class="partners-title">LIÊN KẾT - ĐỐI TÁC</span>
 
             <!-- Swiper Container -->
@@ -742,6 +776,8 @@
 
     <footer class="site-footer">
         <div class="top-footer">
+            <img src="assets/patterns/city.png" alt="" class="top-footer-bg">
+
             <div class="qdtpt">
                 <span class="qdtpt-title">QUỸ ĐẦU TƯ PHÁT TRIỂN THÀNH PHỐ HUẾ</span>
 

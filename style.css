@@ -90,10 +90,6 @@ body {
     background: var(--bg-cream);
 }
 
-.ff-pd {
-    font-family: 'Playfair Display';
-}
-
 a {
     text-decoration: none;
 }
@@ -151,8 +147,43 @@ a {
 }
 
 .top-header {
+    position: relative;
     padding-left: var(--section-x) !important;
     padding-right: var(--section-x) !important;
+    z-index: 1;
+}
+
+.header-bg-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bg-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.header-bg-right {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.top-header-container {
+    position: relative;
+    z-index: 2;
 }
 
 .header-navigation {
@@ -264,16 +295,18 @@ a {
     padding: 0 20px 100px;
 }
 
-.banner-description span:first-child {
+.main-banner-title {
     font-size: 45px;
     font-weight: 800;
     line-height: 52px;
     max-width: 633px;
     margin-bottom: 16px;
     text-shadow: 2px 2px 8px #000000;
+    text-align: center;
+    font-family: 'Playfair Display';
 }
 
-.banner-description span:nth-child(2) {
+.main-banner-text {
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -378,10 +411,10 @@ a {
 /* ============ SECTION TITLES ============ */
 .section-title-1,
 .section-title-2,
-.fields-section>div:first-child,
-.projects-section>div:first-child,
-.steps-section>div:nth-child(2),
-.faq-section>div:first-child {
+.section-title-3,
+.section-title-4,
+.section-title-5,
+.section-title-6 {
     text-align: center;
     margin: 0 auto 40px;
     display: flex;
@@ -392,10 +425,10 @@ a {
 
 .section-title-1 span,
 .section-title-2 span,
-.fields-section>div:first-child span,
-.projects-section>div:first-child span,
+.section-title-3 span,
+.section-title-4 span,
 .steps-title,
-.faq-section>div:first-child span {
+.section-title-6 span {
     font-family: 'Playfair Display';
     font-size: 32px;
     font-weight: 700;
@@ -405,10 +438,10 @@ a {
 
 .section-title-1 hr,
 .section-title-2 hr,
-.fields-section>div:first-child hr,
-.projects-section>div:first-child hr,
+.section-title-3 hr,
+.section-title-4 hr,
 .steps-line,
-.faq-section>div:first-child hr {
+.section-title-6 hr {
     width: 200px;
     height: 3px;
     background: var(--brand-yellow);
@@ -421,6 +454,41 @@ a {
 /* ============ NEWS SECTION ============ */
 .news-section {
     padding: 50px var(--section-x) 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.news-bg-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.news-bg-right-top {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    object-fit: contain;
+}
+
+.news-bg-left-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    object-fit: contain;
+}
+
+.news-bg-right-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    object-fit: contain;
+}
+
+.news-section > div:not(.news-bg-overlay) {
+    position: relative;
+    z-index: 2;
 }
 
 .news-container {
@@ -443,27 +511,27 @@ a {
     border-radius: 16px;
 }
 
-.main-news-content {
+.main-news-container {
     padding-top: 8px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.main-news-title {
+.main-news-content {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-.main-news-title span:first-child {
+.main-news-title {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0.15px;
 }
 
-.main-news-title span:last-child {
+.main-news-date {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -471,7 +539,7 @@ a {
     color: var(--text-tertiary);
 }
 
-.main-news-content>span:last-child {
+.main-news-text {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -661,11 +729,32 @@ a {
     letter-spacing: 0.4px;
 }
 
-/* ============ FIELDS (Lĩnh vực hoạt động) ============ */
+/* ============ FIELDS ============ */
 .fields-section {
     background: linear-gradient(135deg, #DAF8EC 0%, #F0FAF4 100%);
     padding: 60px var(--section-x);
     position: relative;
+    overflow: hidden;
+}
+
+.fields-bg-overlay {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.fields-bg-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    object-fit: contain;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.fields-section > *:not(.fields-bg-right){
+    position: relative;
+    z-index: 2;
 }
 
 .fields-swiper .swiper-slide {
@@ -720,9 +809,26 @@ a {
 }
 
 /* ============ PROJECTS ============ */
-/* ============ PROJECTS ============ */
 .projects-section {
     padding: 60px var(--section-x) 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+.projects-bg-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.projects-bg-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    z-index: 1;
 }
 
 .projects-swiper {
@@ -730,7 +836,7 @@ a {
 }
 
 .projects-swiper .swiper-slide {
-    height: auto; /* Giúp các card cao bằng nhau */
+    height: auto;
     background: #fff;
     overflow: hidden;
     display: flex;
@@ -781,7 +887,7 @@ a {
     -webkit-line-clamp: 3;
     overflow: hidden;
     margin: 0 16px 16px;
-    flex-grow: 1; /* Đẩy nút bấm xuống sát đáy card */
+    flex-grow: 1;
 }
 
 .project-button {
@@ -910,6 +1016,29 @@ a {
 .faq-section {
     padding: 60px var(--section-x);
     background: linear-gradient(98.41deg, #DAF8EC 12.88%, #F0FAF4 87.12%);
+    position: relative;
+    overflow: hidden;
+}
+
+.faq-bg-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.faq-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.faq-bg-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    z-index: 1;
 }
 
 .faq-container {
@@ -989,6 +1118,23 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-bg {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.about-section > *:not(.about-bg) {
+    position: relative;
+    z-index: 2;
 }
 
 .about-content {
@@ -1055,6 +1201,7 @@ a {
 
 .about-image-wrapper {
     position: relative;
+    width: 100%;
 }
 
 .about-image-wrapper img {
@@ -1086,10 +1233,13 @@ a {
 .about-stats {
     grid-column: 1 / -1;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
     position: relative;
     margin-top: -100px;
-    margin-left: 120px;
+    margin-left: 0;
+    z-index: 2;
 }
 
 .stats-item {
@@ -1137,6 +1287,24 @@ a {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+.partners-bg {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.partners-section > *:not(.partners-bg) {
+    position: relative;
+    z-index: 2;
 }
 
 .partners-title {
@@ -1184,6 +1352,24 @@ a {
     display: flex;
     gap: 24px;
     padding: 60px var(--section-x) 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-footer-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.top-footer > *:not(.top-footer-bg) {
+    position: relative;
+    z-index: 2;
 }
 
 .qdtpt {
@@ -1544,6 +1730,83 @@ a {
         padding: 24px;
         border-radius: 16px;
     }
+
+    .top-header-container {
+        position: relative;
+        justify-content: center !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .top-header .left-panel {
+        display: none !important;
+    }
+
+    .top-header .right-panel {
+        display: none !important;
+    }
+
+    .top-header .main-logo {
+        margin: 0 auto;
+    }
+
+    .header-navigation {
+        display: none !important;
+    }
+
+    .site-footer {
+        display: none !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .categories-container {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    .about-section {
+        grid-template-columns: 1fr;
+        padding-left: var(--section-x);
+        padding-right: var(--section-x);
+    }
+    
+    .about-image-wrapper {
+        order: 1;
+    }
+    .about-content {
+        order: 2;
+    }
+
+    .about-play-btn {
+        display: none !important;
+    }
+
+    .about-title1 {
+        display: none;
+    }
+
+    .about-stats {
+        order: 3;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .stats-item {
+        width: 100%;
+        padding: 12px 10px;
+    }
+
+    .header-bg-overlay,
+    .news-bg-overlay,
+    .fields-bg-right,
+    .projects-bg-overlay,
+    .faq-bg-overlay,
+    .about-bg,
+    .partners-bg {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1563,7 +1826,7 @@ a {
     }
 
     .banner-description span:first-child {
-        font-size: 26px;
+        font-size: 35px;
     }
 
     .banner-description {
@@ -1576,15 +1839,75 @@ a {
     }
 
     .notifications,
-    .categories-container,
     .functions-section,
     .fields-section>div:last-child,
-    .steps-section>div:last-child,
-    .about-section>div:last-child {
+    .steps-section>div:last-child {
         grid-template-columns: 1fr;
     }
 
     .floating-dock {
         display: none;
+    }
+
+    .top-header-container {
+        justify-content: flex-start !important;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .top-header .main-logo {
+        margin: 0;
+    }
+
+    .categories-container {
+        gap: 12px;
+    }
+
+    .categories-item {
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .categories-item img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .categories-item span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .categories-item a {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-banner-text {
+        display: none !important;
+    }
+
+    .main-banner-buttons-group {
+        flex-direction: column;
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .main-banner-primary-button,
+    .main-banner-secondary-button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 461px){
+
+}
+
+@media (max-width: 200px) {
+    .about-stats {
+        grid-template-columns: 1fr;
     }
 }
