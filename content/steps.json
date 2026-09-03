@@ -1,0 +1,27 @@
+[
+    {
+        "step": "01",
+        "title": "Tư vấn & Hướng dẫn",
+        "description": "Tiếp nhận nhu cầu và tư vấn chi tiết về điều kiện, hồ sơ pháp lý cần thiết."
+    },
+    {
+        "step": "02",
+        "title": "Tiếp nhận hồ sơ",
+        "description": "Kiểm tra tính đầy đủ, hợp lệ của hồ sơ vay vốn theo quy định hiện hành."
+    },
+    {
+        "step": "03",
+        "title": "Thẩm định điều kiện",
+        "description": "Đánh giá tính khả thi, hiệu quả kinh tế - xã hội và khả năng hoàn trả vốn dự án."
+    },
+    {
+        "step": "04",
+        "title": "Quyết định cho vay",
+        "description": "Hội đồng Quỹ xem xét phê duyệt và ký kết hợp đồng tín dụng chính thức."
+    },
+    {
+        "step": "05",
+        "title": "Giải ngân & Giám sát",
+        "description": "Cấp vốn theo tiến độ dự án và kiểm tra định kỳ việc sử dụng nguồn vốn vay."
+    }
+]

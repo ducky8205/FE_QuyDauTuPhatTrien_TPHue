@@ -1,0 +1,27 @@
+{
+    "subtitle": "VỀ CHÚNG TÔI",
+    "title": "Quỹ đầu tư phát triển thành phố Huế",
+    "description": "Là một <span>tổ chức tài chính</span> nhà nước trực thuộc UBND thành phố Huế; nhằm mục đích <span>tiếp nhận vốn ngân sách</span>, <span>huy động vốn</span> trung và dài hạn <span>từ các tổ chức trong và ngoài nước</span> để <span>cho vay, đầu tư vào dự án thuộc</span> danh mục <span>các lĩnh vực đầu tư kết cấu hạ tầng kinh tế - xã hội</span> ưu tiên phát triển của địa phương",
+    "buttonText": "Xem thêm",
+    "buttonLink": "#",
+    "image": "assets/images/hue.png",
+    "videoUrl": "#",
+    "stats": [
+        {
+            "number": "10+",
+            "title": "Năm kinh nghiệm"
+        },
+        {
+            "number": "300 tỷ",
+            "title": "Vốn điều lệ"
+        },
+        {
+            "number": "12+",
+            "title": "Đối tác"
+        },
+        {
+            "number": "42+",
+            "title": "Dự án"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Giới hạn đầu tư góp vốn",
+        "answer": "Quỹ thực hiện đầu tư góp vốn tối đa bằng 20% vốn chủ sở hữu của Quỹ tại thời điểm thực hiện. Trường hợp Quỹ góp vốn thành lập doanh nghiệp vào dự án theo quy định của pháp luật để quản lý và thực hiện duy nhất một dự án đầu tư, thì khoản vốn, lập doanh nghiệp được tính gộp vào tổng số vốn đầu tư trực tiếp và phải tuân thủ quy định về lĩnh vực và giới hạn đầu tư trực tiếp tại Nghị định số 138/2007/NĐ-CP và Nghị định số 37/2013/NĐ-CP./.",
+        "active": true
+    },
+    {
+        "question": "Điều kiện góp vốn thành lập doanh nghiệp",
+        "answer": "text",
+        "active": false
+    },
+    {
+        "question": "Giới hạn đầu tư trực tiếp",
+        "answer": "text",
+        "active": false
+    },
+    {
+        "question": "Thời hạn để thực hiện đầu tư trực tiếp",
+        "answer": "text",
+        "active": false
+    },
+    {
+        "question": "Các hình thức đầu tư trực tiếp",
+        "answer": "text",
+        "active": false
+    }
+]

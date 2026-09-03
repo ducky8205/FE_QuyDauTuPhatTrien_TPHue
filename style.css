@@ -775,7 +775,7 @@ a {
     border-top-right-radius: 16px;
 }
 
-.fields-swiper .swiper-slide > span:nth-child(2) {
+.field-title {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -784,7 +784,7 @@ a {
     color: var(--text-primary);
 }
 
-.fields-swiper .swiper-slide > span:last-child {
+.field-description {
     color: var(--text-secondary);
     margin: 0 16px 20px;
     font-weight: 400;

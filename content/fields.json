@@ -1,0 +1,32 @@
+[
+    {
+        "image": "assets/images/handshake.png",
+        "title": "Hoạt động cho vay",
+        "description": "Quỹ được cho vay đối với các dự án thuộc danh mục các lĩnh vực kết cấu hạ tầng kinh tế - xã hội ưu tiên phát triển của địa phương do Ủy ban nhân dân thành phố Huế ban hành theo quy định tại Nghị định số 147/2020/NĐ-CP.",
+        "link": "#"
+    },
+    {
+        "image": "assets/images/green.png",
+        "title": "Hoạt động đầu tư trực tiếp",
+        "description": "Quỹ được đầu tư vào các dự án, đầu tư thành lập tổ chức kinh tế, đầu tư góp vốn, mua cổ phần, phần vốn góp của tổ chức kinh tế thuộc danh mục các lĩnh vực đầu tư kết cấu hạ tầng kinh tế - xã hội ưu tiên phát triển của địa phương do Ủy ban nhân dân thành phố Huế ban hành theo quy định tại Nghị định số 147/2020/NĐ-CP.",
+        "link": "#"
+    },
+    {
+        "image": "assets/images/handshake-2.png",
+        "title": "Hoạt động ủy thác và nhận ủy thác",
+        "description": "Quỹ được uy thác cho vay, đầu tư; nhận ủy thác quản lý các quỹ tài chính nhà nước tại địa phương, các tổ chức, cá nhân trong nước và ngoài nước theo quy định của pháp luật và Nghị định số 147/2020/NĐ-CP.",
+        "link": "#"
+    },
+    {
+        "image": "assets/images/coins.png",
+        "title": "Hoạt động huy động vốn",
+        "description": "Quỹ được huy động các nguồn vốn trung và dài hạn từ các tổ chức trong và ngoài nước theo quy định tại Nghị định số 147/2020/NĐ-CP.",
+        "link": "#"
+    },
+    {
+        "image": "assets/images/coins.png",
+        "title": "Hoạt động huy động vốn",
+        "description": "Quỹ được huy động các nguồn vốn trung và dài hạn từ các tổ chức trong và ngoài nước theo quy định tại Nghị định số 147/2020/NĐ-CP.",
+        "link": "#"
+    }
+]

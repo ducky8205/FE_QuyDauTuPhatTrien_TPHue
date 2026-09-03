@@ -1,0 +1,35 @@
+{
+  "mainNews": {
+    "image": "assets/images/chu-nhat-xanh.png",
+    "title": "Chi đoàn Quỹ Đầu tư phát triển thành phố Huế hưởng ứng Ngày Chủ nhật xanh tháng 3 năm 2026",
+    "date": "02/03/2026",
+    "description": "Sáng ngày 01/03/2026, Chi đoàn Quỹ Đầu tư phát triển thành phố Huế đã đồng loạt ra quân tham gia hoạt động “Ngày Chủ nhật xanh - Hãy hành động để thành phố Huế thêm Xanh - Sạch - Sáng” trên địa bàn thành phố. Hoạt động được tổ chức tại khuôn viên trụ sở Quỹ và hai tuyến đường Nguyễn Huệ - Hai Bà Trưng, tiếp tục hưởng ứng Kế hoạch số 04/KH-UBND của UBND thành phố Huế và phong trào Ngày Chủ nhật xanh do Thành phố phát động."
+  },
+  "sideNews": [
+    {
+      "image": "assets/images/ket-nap.png",
+      "title": "Chi bộ Quỹ Đầu tư phát triển thành phố Huế tổ chức Lễ kết nạp đảng viên mới",
+      "date": "09/02/2026"
+    },
+    {
+      "image": "assets/images/dang-huong.png",
+      "title": "Quỹ Đầu tư phát triển thành phố Huế tổ chức dâng hương tưởng niệm nhân kỷ niệm 96 năm Ngày thành lập Đảng Cộng sản Việt Nam (03/02/1930 - 03/02/2026)",
+      "date": "03/02/2026"
+    },
+    {
+      "image": "assets/images/thi-dua.png",
+      "title": "Hội nghị tổng kết phong trào thi đua năm 2025 Khối thi đua Sự nghiệp 1",
+      "date": "02/02/2026"
+    },
+    {
+      "image": "assets/images/hien-mau.png",
+      "title": "Hiến máu cứu người - Ngày hội hiến máu tình nguyện “Chủ nhật đỏ” 2026",
+      "date": "31/01/2026"
+    },
+    {
+      "image": "assets/images/chu-nhat-xanh-2.png",
+      "title": "Chi đoàn Quỹ Đầu tư phát triển thành phố Huế ra quân thực hiện Đề án Ngày Chủ nhật xanh “Hãy hành động để thành phố Huế thêm Xanh - Sạch - Sáng” năm 2026",
+      "date": "18/01/2026"
+    }
+  ]
+}

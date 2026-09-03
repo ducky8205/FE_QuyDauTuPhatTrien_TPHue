@@ -1,0 +1,42 @@
+[
+  {
+    "image": "assets/icons/cars.svg",
+    "title": "Giao thông, đô thị, công ích đô thị",
+    "link": "#"
+  },
+  {
+    "image": "assets/icons/tags.svg",
+    "title": "Du lịch, thương mại, dịch vụ",
+    "link": "#"
+  },
+  {
+    "image": "assets/icons/rocket.svg",
+    "title": "Khoa học công nghệ, công nghệ thông tin và viễn thông, công nghệ cao,Startup, Logistics",
+    "link": "#"
+  },
+  {
+    "image": "assets/icons/eco-power.svg",
+    "title": "Năng lượng, môi trường",
+    "link": "#"
+  },
+  {
+    "image": "assets/icons/education.svg",
+    "title": "Xã hội hoá giáo dục, y tế,văn hoá, thể thao, hạ tầng xã hội",
+    "link": "#"
+  },
+  {
+    "image": "assets/icons/factory.svg",
+    "title": "Hạ tầng khu kinh tế Chân Mây Lăng Cô và các khu công nghiệp, cụm công nghiệp, khu chế xuất, khu kinh tế, cụm công nghiệp làng nghề; sản xuất công nghiệp",
+    "link": "#"
+  },
+  {
+    "image": "assets/icons/tractor.svg",
+    "title": "Nông nghiệp, lâm, ngư nghiệp",
+    "link": "#"
+  },
+  {
+    "image": "assets/icons/categories.svg",
+    "title": "Xem tất cả danh mục lĩnh vực đầu tư, cho vay giai đoạn 2002 - 2025",
+    "link": "#"
+  }
+]
